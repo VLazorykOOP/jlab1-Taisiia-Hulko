@@ -1,7 +1,6 @@
-import java.util.Scanner; //зчитування введення з клавіатури
-//завдання 1
+import java.util.Scanner;
 public class ArrayMultiplicationSum {
-    public static void main(String[] args) { 
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.print("n= ");
@@ -23,3 +22,4 @@ public class ArrayMultiplicationSum {
         in.close();
     }
 }
+

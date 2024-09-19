@@ -52,13 +52,12 @@ public class ArrayUnionProduct {
     public static void main(String[] args) {
         in = new Scanner(System.in);
 
-        // Введення масивів
         int[] X = InputArray("X");
         int[] Y = InputArray("Y");
 
-        // Обробка масивів: об'єднання, добуток і сума
         ProcessUnionAndProduct(X, Y);
 
         in.close();
     }
 }
+

@@ -4,7 +4,6 @@ public class MatrixComparison {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         System.out.print("Введіть розмір матриць (не більше 15): ");
         int n = scanner.nextInt();
         if (n > 15) {
@@ -54,3 +53,4 @@ public class MatrixComparison {
         scanner.close();
     }
 }
+
